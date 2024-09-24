@@ -14,4 +14,12 @@ public class ClienteService {
     public Vector<Cliente> getAllClients(){
         return clienteRepository.findAllClients();
     }
+
+    public Cliente getClienteByID(int id){
+        return clienteRepository.findClienteById(id);
+    }
+
+    public Cliente searchClienti(String nome, String cognome){
+        return  clienteRepository.searchClienti(nome, cognome);
+    }
 }

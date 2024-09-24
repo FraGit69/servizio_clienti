@@ -16,8 +16,11 @@ public class ClienteController {
 
     @RequestMapping
     public Vector<Cliente> getAllStudents(){
-        for (Cliente x : clienteService.getAllClients())
-        System.out.println(x.toString());
         return clienteService.getAllClients();
+    }
+
+    @RequestMapping("/{nome}/{cognome}")
+    public Cliente searchClient(String nome, String cognome){
+        return clienteService.searchClienti(nome, cognome);
     }
 }
