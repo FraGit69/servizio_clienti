@@ -1,10 +1,10 @@
-id,nome,cognome,data di nascita,codice fiscale,mail,indirizzo
-0,Marco,Gialli,15-09-1995,MRCGLL95S15A271P,marco.gialli@example.com,Via Garibaldi 22
-2,Luca,Bianchi,22-07-1990,LNCBNC90L22H501Y,luca.bianchi@example.com,Via Verdi 12
-3,Giulia,Verdi,03-12-1978,GLVRDI78T03A271Z,giulia.verdi@example.com,Corso Italia 5
-4,Mario,Rossi,10-05-1985,MRARSS85E10A001X,mario.rossi@example.com,Via Roma 10
-5,Luca,Bianchi,22-07-1990,LNCBNC90L22H501Y,luca.bianchi@example.com,Via Verdi 12
-6,Giulia,Verdi,03-12-1978,GLVRDI78T03A271Z,giulia.verdi@example.com,Corso Italia 5
-7,Mario,Rossi,10-05-1985,MRARSS85E10A001X,mario.rossi@example.com,Via Roma 10
-8,Luca,Bianchi,22-07-1990,LNCBNC90L22H501Y,luca.bianchi@example.com,Via Verdi 12
-9,Giulia,Verdi,03-12-1978,GLVRDI78T03A271Z,giulia.verdi@example.com,Corso Italia 5
+id,nome,cognome,data di nascita,sesso,codice fiscale,mail,indirizzo
+0,Marco,Gialli,15-09-1995,m, MRCGLL95S15A271P,marco.gialli@example.com,Via Garibaldi 22
+1,Luca,Bianchi,22-07-1990,m,LNCBNC90L22H501Y,luca.bianchi@example.com,Via Verdi 12
+2,Giulia,Verdi,03-12-1978,f,GLVRDI78T03A271Z,giulia.verdi@example.com,Corso Italia 5
+3,Mario,Rossi,10-05-1985,m,MRARSS85E10A001X,mario.rossi@example.com,Via Roma 10
+4,Luca,Bianchi,22-07-1990,m,LNCBNC90L22H501Y,luca.bianchi@example.com,Via Verdi 12
+5,Giulia,Verdi,03-12-1978,f,GLVRDI78T03A271Z,giulia.verdi@example.com,Corso Italia 5
+6,Mario,Rossi,10-05-1985,m,MRARSS85E10A001X,mario.rossi@example.com,Via Roma 10
+7,Luca,Bianchi,22-07-1990,m,LNCBNC90L22H501Y,luca.bianchi@example.com,Via Verdi 12
+8,Giulia,Verdi,03-12-1978,f,GLVRDI78T03A271Z,giulia.verdi@example.com,Corso Italia 5

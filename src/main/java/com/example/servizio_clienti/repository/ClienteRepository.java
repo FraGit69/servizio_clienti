@@ -12,7 +12,6 @@ public class ClienteRepository {
     private static final String CSV_HEADER = "id,nome,cognome,data di nascita,codice fiscale,mail,indirizzo\n";
     private static final String PATH = "src/main/java/com/example/servizio_clienti/repository/clienti.csv";
     public ClienteRepository() {
-
         this.clienti = loadClientiFromCSV();
     }
 
@@ -31,7 +30,7 @@ public class ClienteRepository {
             while(riga != null) {
 
                 String[] stringa = riga.split(",");
-                ret.add(new Cliente(Integer.parseInt(stringa[0]), stringa[1], stringa[2], LocalDate.parse(stringa[3], format), stringa[4], stringa[5], stringa[6]));
+                ret.add(new Cliente(Integer.parseInt(stringa[0]), stringa[1], stringa[2], LocalDate.parse(stringa[3], format), stringa[4], stringa[5], stringa[6], stringa[7]));
                 riga = bfr.readLine();
             }
         }catch (FileNotFoundException e){}catch (IOException e){}
@@ -39,7 +38,7 @@ public class ClienteRepository {
         return ret;
     }
 
-    public void saveClientiToCSV() {
+    private void saveClientiToCSV() {
         File f = new File(PATH);
 
         try{
@@ -114,4 +113,5 @@ public class ClienteRepository {
         }
         return s;
     }
+
 }

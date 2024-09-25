@@ -8,15 +8,17 @@ public class Cliente {
     private String nome;
     private String cognome;
     private LocalDate nascita;
+    private String sesso;
     private String CF;
     private String mail;
     private String indirizzo;
 
-    public Cliente(int id,String nome,String cognome,LocalDate nascita,String CF,String mail,String indirizzo)  {
+    public Cliente(int id,String nome,String cognome,LocalDate nascita,String sesso, String CF,String mail,String indirizzo)  {
         this.id = id;
         this.nome = nome;
         this.cognome = cognome;
         this.nascita = nascita;
+        this.sesso=sesso;
         this.CF = CF;
         this.mail = mail;
         this.indirizzo = indirizzo;
@@ -58,6 +60,6 @@ public class Cliente {
     @Override
     public String toString() {
         DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-        return id + "," + nome+ "," + cognome+ ","+ nascita.format(format) + "," + CF + "," + mail + "," + indirizzo + "\n";
+        return id + "," + nome+ "," + cognome+ ","+ nascita.format(format) + "," + sesso + "," + CF + "," + mail + "," + indirizzo + "\n";
     }
 }
